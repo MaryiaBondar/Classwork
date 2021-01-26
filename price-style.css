@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 75px auto;
+}
+
+h1 {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+}
+
+p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #9FA3A7;
+    width: 373.36px;
+    margin: 35px auto;
+}
+
+.cols {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cols img {
+    height: 200px;
+    width: 200px;
+}
+
+.col2 img {
+    margin-top: 67px;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+h2:hover {
+    color: #222ec7;
+}
+
+.cols  p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #9FA3A7;
+    width: 206px;
+}
+
+.cols .price {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 74px;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+}
+
+.price:hover {
+    color: red;
+}
+
+.price span:hover {
+    color: red;
+}
+
+.price span {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+}
+
+.col2 {
+    border: 1px solid #E8E9ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+button {
+    width: 160px;
+    height: 46px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+    color: white;
+    text-transform: uppercase;
+    background: #FFC80A;
+    border-radius: 100px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background: #03ff22;
+    color: black;
+    transform: scale(1.5);
+}
